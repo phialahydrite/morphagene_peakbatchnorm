@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Usage:
-    morphagene_batchnorm.py -w <inputwavfiles> -a <amplitude>
+    morphagene_peakbatchnorm.py -w <inputwavfiles> -a <amplitude>
     
 Use pydub and numpy to match peak amplitude to a target value, while maintaining preexisting splices.
 Uses wavefile.py by X-Raym [https://github.com/X-Raym/wavfile.py/blob/master/wavfile.py]
