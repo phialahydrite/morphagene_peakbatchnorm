@@ -4,7 +4,7 @@ Morphagene reel batch peak amplitude normalization using pydub and numpy, mainta
 Requires pydub and wavfile.py (modified from X-Raym, https://github.com/X-Raym/wavfile.py/blob/master/wavfile.py).
 
 # Example
-Modify volume of reels in folder such that all resulting reels have a peak amplitude of -12dB
+Modify volume of reels in folder such that all resulting reels have a peak amplitude of -5dB
 ```
-python morphagene_peakbatchnorm.py -w "path/to/morphagene/reels/' -a -12
+python morphagene_peakbatchnorm.py -w path/to/morphagene/reels/ -a -5
 ```
